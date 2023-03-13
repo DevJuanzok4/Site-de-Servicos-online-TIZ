@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+    background-color: #1b1E23;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+
+  .contact-card {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, transparent, #683DFD, #683DFD);
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+  }
+  
+  .contact-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .contact-info {
+    flex-grow: 1;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin: 0;
+   color: #1b1E23;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin: 6px 0;
+    color: azure;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: azure;
+  }
+  
+  .contact-info ul li {
+    font-size: 16px;
+    margin: 6px 0;
+  }
+  
+  .contact-info ul li i {
+    margin-right: 12px;
+  }
+  
+body {
+
+    flex-direction: column;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 0;
+
+
+}
+
+.kkk {
+    background: linear-gradient(0deg, transparent, #683DFD, #683DFD);
+}
+
+nav {
+    background-color: #683DFD;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #4765ff;
+}
+
+h1 {
+    color: #683DFD;
+    font-size: 70px;
+    
+  }
+  
+  h1:hover{
+    color: #4765ff;
+    cursor: pointer;
+   
+  }
+  
+  
+  .logo{
+    position: relative;
+    top: -26px; 
+  }
+  
+  .dois{
+    position: relative;
+    top: 15px;  
+  }
+
+
+
+h1 {
+    text-shadow: 3px 3px 4px #180E3B;
+    font-size: 50px;
+    top: 10px;
+  }
+  
